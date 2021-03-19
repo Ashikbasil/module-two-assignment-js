@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #300707;
+}
+
+h2 {
+  color: rgb(22, 136, 136);
+}
+
+
+#head-container {
+
+  background-color: #b95eee;
+  width: 100%;
+  height: 200px;
+
+}
+
+#content {
+  background: transparent;
+  border: none;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  height: 25px;
+  outline: none;
+  font-size: x-large;
+}
+
+#btn {
+  padding: 10px;
+  width: 15%;
+  background: #d9d9d9af;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  margin-left: 42%;
+  margin-right: 45%;
+}
+
+#btn:hover {
+  background-color: #bbb;
+}
+
+
+.dbtn {
+  background-color: rgb(33, 89, 105);
+  border: 1px solid #474B4F;
+  cursor: pointer;
+  color: #ffff;
+  font-size: 17px;
+  text-decoration: none !important;
+  width: auto;
+  margin: 7px 25px;
+  padding-right: 16px;
+}
+.compltdBtn{
+  background-color: rgb(33, 89, 105);
+  border: 1px solid #474B4F;
+  cursor: pointer;
+  color: #ffff;
+  font-size: 17px;
+  text-decoration: none !important;
+  width: auto;
+  margin: 7px 15px;
+  padding-right: 15px;
+}
+
+.compltdBtn:hover{
+  background: rgb(54, 223, 54);
+}
+
+.dbtn:hover {
+  background: rgb(255, 0, 0);
+}
+
+li {
+  list-style: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #ac3c10;
+  display: inline-block;
+}
+
+#wrapper {
+  float: left;
+}
